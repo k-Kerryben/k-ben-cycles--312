@@ -389,32 +389,36 @@ button {
 }
 
 .contact_bt a {
-    width: 180px;
+    width: 100px;
     float: left;
     font-size: 18px;
     color: #ffffff;
     text-align: center;
     background-color: #f7c17b;
     padding: 8px 0px;
+    border-radius: 20px;
 }
 
 .contact_bt a:hover {
     color: #000;
-    background-color: #ffffff;
+    background-color: #67afaf;
 }
 
 
 #main_slider a.carousel-control-prev {
     left: 88%;
     top: 60%;
-    background-color: #f7c17b;
+    background-color: #325662;
     color: #ffffff;
+    border-radius: 100%;
 }
+
 
 #main_slider a.carousel-control-next {
     position: absolute;
     right: 20px;
     top: 60%;
+    border-radius: 100%;
 }
 
 #main_slider .carousel-control-prev,
@@ -984,9 +988,9 @@ input.email-bt::placeholder {
 .massage-bt {
     color: #292929;
     width: 100%;
-    height: 110px;
+    height: 80px;
     font-size: 18px;
-    padding: 40px 20px 10px;
+    padding: 20px 20px 10px;
     background-color: #fefeff;
     border: 0px;
     border-radius: 30px;
@@ -1047,12 +1051,20 @@ textarea#comment::placeholder {
     padding: 8px 15px;
     margin-top: 40px;
     border: 0px;
+    border-radius: 20px;
 }
-
+.more-txt a{
+    text-decoration: none;
+    color: black;
+}
+.more-txt a:hover{
+    color: #aa0719;
+}
 .subscribe_bt {
     width: 180px;
     float: left;
     margin-top: 15px;
+    border-radius: 15px;
 }
 .subscribe_bt a {
     width: 100%;
@@ -1063,6 +1075,7 @@ textarea#comment::placeholder {
     background-color: #f7c17b;
     padding: 8px;
     margin-top: 20px;
+    border-radius: 15px;
 }
 .subscribe_bt a:hover{
     color: #9e9c9c;

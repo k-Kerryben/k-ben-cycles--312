@@ -396,12 +396,13 @@ button {
     text-align: center;
     background-color: #f7c17b;
     padding: 8px 0px;
-    border-radius: 20px;
-}
+    border-radius: 10px;
+    }
 
 .contact_bt a:hover {
     color: #000;
     background-color: #67afaf;
+    border-radius: 20px;
 }
 
 
@@ -410,7 +411,7 @@ button {
     top: 60%;
     background-color: #325662;
     color: #ffffff;
-    border-radius: 100%;
+    border-radius: 15px;
 }
 
 
@@ -418,13 +419,13 @@ button {
     position: absolute;
     right: 20px;
     top: 60%;
-    border-radius: 100%;
+    border-radius: 15px;
 }
 
 #main_slider .carousel-control-prev,
 #main_slider .carousel-control-next {
-    width: 68px;
-    height: 68px;
+    width: 50px;
+    height: 50px;
     background: #325662;
     opacity: 1;
     font-size: 30px;
@@ -437,6 +438,7 @@ button {
 #main_slider .carousel-control-next:focus {
     background-color: #f7c17b;
     color: #ffffff;
+    border-radius: 40px;
 }
 /* banner section end */
 
@@ -728,6 +730,7 @@ box-shadow: 0px 8px 7px 3px
     width: 170px;
     margin: 0 auto;
     text-align: center;
+    border-radius: 20px;
 }
 .read_bt_1 a{
     width: 100%;
@@ -742,8 +745,11 @@ box-shadow: 0px 8px 7px 3px
 .read_bt_1 a:hover{
     color: #ffffff;
     background-color: #325662;
+    border-radius: 30px;
 }
-
+.h3location{
+    margin-left: 550px;
+}
 
 /* about section end */
 /* client section start */
@@ -819,8 +825,9 @@ box-shadow: 0px 8px 7px 3px
 #my_slider a.carousel-control-prev {
     left: 640px;
     top: 93%;
-    background-color: #f7c17b;
+    background-color: #355764;
     color: #ffffff;
+    border-radius: 100%;
 }
 
 #my_slider a.carousel-control-next {
@@ -831,12 +838,13 @@ box-shadow: 0px 8px 7px 3px
 
 #my_slider .carousel-control-prev,
 #my_slider .carousel-control-next {
-    width: 68px;
-    height: 68px;
-    background: #191616;
+    width: 49px;
+    height: 49px;
+    background: #355764;
     opacity: 1;
-    font-size: 30px;
+    font-size: 20px;
     color: #ffffff;
+    border-radius: 100%;
 }
 
 #my_slider .carousel-control-prev:hover,
